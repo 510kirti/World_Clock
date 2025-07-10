@@ -10,13 +10,12 @@ An interactive and dynamic world clock web app built with React, Leaflet, and Bo
 - 🗺️ Interactive **world map** – click on any country to add its clock
 - ⏰ Set and manage **alarms**
 - ➕ Add clocks of custom time zones
-- ❌ Remove clocks instantly
 - 🌓 Light/Dark mode toggle
 - 💅 Fully responsive Bootstrap UI
 
 ---
 
-## 🖼️ Preview
+<!-- ## 🖼️ Preview
 
 | 🌎 Click any country on the map | ⏰ Set Alarm |
 |-------------------------------|-------------|
@@ -24,7 +23,7 @@ An interactive and dynamic world clock web app built with React, Leaflet, and Bo
 
 _Add your own preview images if not already present._
 
----
+--- -->
 
 ## 🚀 Getting Started
 
