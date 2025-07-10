@@ -36,3 +36,123 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: linear-gradient(to right, #4B6CB7, #182848);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: white !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  font-weight: 600;
+  color: #20c997 !important;
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #4B6CB7;
+  color: white;
+  font-weight: 600;
+  border-bottom: none;
+}
+
+.btn-outline-success {
+  border-color: #20c997;
+  color: #20c997;
+}
+
+.btn-outline-success:hover {
+  background-color: #20c997;
+  color: white;
+}
+
+input, select {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+}
+
+h2, h4 {
+  color: #4B6CB7;
+  font-weight: 600;
+}
+
+.navbar.fixed-top {
+  transition: box-shadow 0.3s ease;
+}
+
+.navbar.scrolled {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Default (Light Mode) */
+.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.light-mode .card {
+  background-color: white;
+  color: black;
+}
+
+.light-mode .navbar {
+  background-color: #ffffff !important;
+  color: black;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #333;
+}
+
+.dark-mode .navbar {
+  background-color: #1f1f1f !important;
+  color: white;
+}
+
+.dark-mode .btn-outline-primary {
+  border-color: #0d6efd;
+  color: #0d6efd;
+}
+
+.dark-mode .btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
+}
