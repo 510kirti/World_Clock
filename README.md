@@ -15,15 +15,17 @@ An interactive and dynamic world clock web app built with React, Leaflet, and Bo
 
 ---
 
-<!-- ## 🖼️ Preview
+## 🌍 Preview
 
-| 🌎 Click any country on the map | ⏰ Set Alarm |
-|-------------------------------|-------------|
-| ![Map Click](./screenshots/map-click.gif) | ![Alarm](./screenshots/alarm.png) |
+### 🕒 Clock Cards
+![Clock Cards](./screenshots/clock-cards.png)
 
-_Add your own preview images if not already present._
+### 🗺 Click on Map to Add Clock
+![Map Click](./screenshots/map-click.mp4)
 
---- -->
+### ⏰ Alarm Section
+![Alarm](./screenshots/alarm.png)
+
 
 ## 🚀 Getting Started
 
